@@ -16,6 +16,7 @@ func main() {
 	name, nameLength := twoReturnedValues("Leonardo")
 	fmt.Println(name, nameLength)
 	fmt.Println(withTypeReturn("Leonardo"))
+	fmt.Println(namedReturnValues("Leonardo"))
 }
 
 func withParams(name string) {
@@ -28,6 +29,12 @@ func oneReturnedValue(name string) string {
 
 func twoReturnedValues(name string) (string, int) {
 	return name, len(name)
+}
+
+func namedReturnValues(name string) (returnedName string, nameLength int) {
+	returnedName = name
+	nameLength = len(name)
+	return
 }
 
 func withTypeReturn(name string) User {
