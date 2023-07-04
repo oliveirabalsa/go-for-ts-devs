@@ -61,8 +61,6 @@ Aqui estão alguns recursos adicionais para aprimorar ainda mais sua jornada de 
 - [Documentação Oficial do Go](https://golang.org/doc/) 📖
 - [Um Tour em Go](https://tour.golang.org/welcome/1) 🚶‍♂️
 - [Effective Go](https://golang.org/doc/effective_go.html) 💪
-- [Go by Example](https://goby
-
-example.com/) 💡
+- [Go by Example](https://gobyexample.com/) 💡
 
 Vamos aprender e explorar o mundo do Go juntos! Bora codar! 🚀
