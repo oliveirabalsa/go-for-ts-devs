@@ -6,10 +6,12 @@ import (
 	// "os"
 )
 
+const filePermissions = 0644
+
 func main() {
 	// !INFO: Writing to a file
 	data := []byte("Hello, Go!")
-	err := ioutil.WriteFile("output-go.txt", data, 0644)
+	err := ioutil.WriteFile("output-go.txt", data, filePermissions)
 	if err != nil {
 		fmt.Println("Error:", err)
 	} else {
