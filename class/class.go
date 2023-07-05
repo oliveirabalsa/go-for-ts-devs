@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 type Person struct {
+	// !INFO: In Go, capitalizing the field names in a struct indicates that the fields are public, meaning they can be accessed from outside the package.
+	//ex: 
+	//Name string  ---- means Name is public
+	//age int      ---- and age is private
 	name string
 	age  int
 }
