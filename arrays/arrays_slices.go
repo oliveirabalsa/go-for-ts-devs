@@ -1,3 +1,4 @@
+package main
 
 import "fmt"
 
@@ -9,6 +10,7 @@ func main() {
 	numbers[2] = 3
 	numbers[3] = 4
 	numbers[4] = 5
+
 	fmt.Println("Array:", numbers)
 
 	// Array literal
