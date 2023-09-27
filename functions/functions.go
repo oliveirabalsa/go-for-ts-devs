@@ -33,3 +33,23 @@ func twoReturnedValues(name string) (string, int) {
 func withTypeReturn(name string) User {
 	return User{Name: name, Age: 50, Email: "oliveirabalsa2@gmail.com"}
 }
+
+func operators(x interface{}, y int) bool {
+	if x.(int) > y {
+		return true
+	}
+
+	if x.(int) > 1 || y > 1 {
+		return true
+	}
+
+	if x.(int) > 1 && y > 1 {
+		return true
+	}
+
+	if x.(int) != 1 {
+		return false
+	}
+
+	return false
+}
