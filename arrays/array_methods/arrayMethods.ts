@@ -19,6 +19,11 @@ function main() {
   slicedNumbers[0] = 99;
   console.log("Modified Slice:", slicedNumbers);
   console.log("Original Array:", numbers);
+
+  // Flat and array
+  const nested = [1, 2, [3, 4], [5, [6]]];
+  const flat = nested.flat(2);
+  console.log("Flattened:", flat);
 }
 
 main();
