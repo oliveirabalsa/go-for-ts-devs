@@ -25,4 +25,18 @@ func main() {
 	slicedNumbers[0] = 99
 	fmt.Println("Modified Slice:", slicedNumbers)
 	fmt.Println("Original Array:", numbers)
+
+	// Flatten the nested slice (1-level only)
+	nested := [][]int{{1, 2}, {3, 4}, {5, 6}}
+	fmt.Println("Nested array:", nested)
+	flat := flattenLevel(nested)
+	fmt.Println("Flattened array:", flat)
+}
+
+func flattenLevel(input [][]int) []int {
+	var flat []int
+	for _, inner := range input {
+		flat = append(flat, inner...)
+	}
+	return flat
 }
