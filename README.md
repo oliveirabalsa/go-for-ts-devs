@@ -27,13 +27,13 @@ To begin with the code examples, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/oliveirabalsa/golang-for-ts-devs.git
+   git clone https://github.com/oliveirabalsa/go-for-ts-devs.git
    ```
 
 2. Navigate to the repository directory:
 
    ```bash
-   cd golang-for-ts-devs
+   cd go-for-ts-devs
    ```
 
 3. Explore the code examples in each file, such as `arrays_slices.go` and `arrays.ts`, and compare the Go and TypeScript code side by side.
